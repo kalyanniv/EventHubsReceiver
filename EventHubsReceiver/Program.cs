@@ -11,10 +11,10 @@ namespace EventHubsReceiver
     {
         static void Main(string[] args)
         {
-            string eventHubConnectionString = "Endpoint=sb://testsvivekanhub-ns.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=LmeY4Ck7OGJ4cVjt1rc1a5MrZHlYBEyoLgqEY4NcqEo=";
-            string eventHubName = "testsvivekanhub";
-            string storageAccountName = "eventhubstoragesvivekan";
-            string storageAccountKey = "Nsfx4Zul3yTQ/5I4/gM8FRU40snMvrSx1z8cCoU7oKOGbJNJlNAEZ6XBqUvRVQNKo3eZ2UYlT3ELciWzpIVcZg==";
+            string eventHubConnectionString = "Endpoint=sb://kalyannivhub-ns.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=eM0cyXRq8vIheb3KSYGjBBWGryutjucbd362Ne5hPpw=";
+            string eventHubName = "kalyannivhub";
+            string storageAccountName = "eventhubstoragekalyanniv";
+            string storageAccountKey = "ljwS0ccYlhkELDJ0eSPwUrCDMrQ1sCt6mR6xg4BPEZ+3BMWwqHxp8btgs/QjfMQ0tWgQDrz+XbmqC8je/7jxnw==";
             string storageConnectionString = string.Format("DefaultEndpointsProtocol=https;AccountName={0};AccountKey={1}", storageAccountName, storageAccountKey);
 
             string eventProcessorHostName = Guid.NewGuid().ToString();
