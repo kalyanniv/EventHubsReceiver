@@ -11,7 +11,7 @@ namespace EventHubsReceiver
     {
         static void Main(string[] args)
         {
-            string eventHubConnectionString = "Endpoint=sb://kalyannivhub-ns.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=eM0cyXRq8vIheb3KSYGjBBWGryutjucbd362Ne5hPpw=";
+            string eventHubConnectionString = "Endpoint=sb://kalyannivhub-ns.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=xBjiknfBY26+nY+AHuV/UmjaA9vXH1rQ3zZEgvI+QcM=";
             string eventHubName = "kalyannivhub";
             string storageAccountName = "eventhubstoragekalyanniv";
             string storageAccountKey = "ljwS0ccYlhkELDJ0eSPwUrCDMrQ1sCt6mR6xg4BPEZ+3BMWwqHxp8btgs/QjfMQ0tWgQDrz+XbmqC8je/7jxnw==";
